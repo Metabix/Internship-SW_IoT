@@ -2,11 +2,16 @@
 Spot Welding IoT Device Development
 
 
+
 Project Objective: 
 
 To introduce an IoT feature to display all the contents required for Spot Welding Cell. The IoT feature can be achieved by using a Raspberry Pi which sends the accumulated data via router/internet access. 
 
 The main objective is to retrieve data from all the components and display it in the client's device. 
+
+
+
+
 
 Project Components : 
 
@@ -16,6 +21,10 @@ Fanuc controller - R-30iB
 Nadesco AC controller - PH5S-1000-N1EJ-L0P0-14020
 Raspberry Pi
 Router 
+
+
+
+
 
 Communication between Raspberry Pi and CJ2M :
 
@@ -34,6 +43,12 @@ Communication between Raspberry Pi and CJ2M :
 ~A0-A999; C0-C999; D0-D999; around 3000 memory sites can be accessed using FINS. (didn't use any function blocks)
 
 ~ Our goal was achieved; since we just need to access the memory site and display the data accordingly. 
+
+
+
+
+
+
 
 Communication between Raspberry Pi and Fanuc controller - R-30iB :
 
